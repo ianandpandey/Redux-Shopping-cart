@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div style={{ display: "flex", alignItems: "space-between" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+      }}
+    >
       <span className="logo">Redux App Store</span>
       <div>
         <Link className="navLink" to="/">
